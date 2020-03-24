@@ -7,7 +7,7 @@ describe('Youtube auth epic', function() {
         it('should allow to fill login and password and authorize', async function() {
             this.timeout(0)
 
-            const browser = await puppeteer.launch({headless:false,  slowMo: 200})
+            const browser = await puppeteer.launch({headless:true})
 
             const page = await browser.newPage()
             await page.goto('https://youtube.com')
