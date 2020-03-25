@@ -16,7 +16,7 @@
   "scripts": {
     "start": "node example.js",
     "test": "mocha",
-    "testcafetest": "testcafe chrome booking/"
+    "testcafetest": "testcafe chrome:headless booking/"
   },
   "author": "",
   "license": "ISC"
