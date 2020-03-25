@@ -14,10 +14,10 @@ test('New Test', async t => {
         .pressKey('alt+shift')
         .pressKey('alt+shift')
         .pressKey('shift+alt')
-        .typeText(Selector('.fld[name="last_name"]'), 'Мирошниченко')
+        .typeText(Selector('.fld[name="last_name"]'), 'Мир')
         .pressKey('tab')
-        .typeText(Selector('.fld[name="first_name"]'), 'Наталья')
-        .typeText(Selector('[name="phone"][data-placeholder="___ (__) ___ __ __"][data-regexp="\\\\d"].empty'), '380972807873')
+        .typeText(Selector('.fld[name="first_name"]'), 'Н')
+        .typeText(Selector('[name="phone"][data-placeholder="___ (__) ___ __ __"][data-regexp="\\\\d"].empty'), '')
         .click(Selector('[name="agree"]'))
         .click(Selector('[name="bonus_agree"]'))
         .click(Selector('button').withText('Зарегистрироваться'));
